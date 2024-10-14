@@ -57,8 +57,8 @@ const display_entries = () => {
         <th class="px-4 py-2">Name</th>
         <th class="px-4 py-2">Email</th>
         <th class="px-4 py-2">Password</th>
-        <th class="px-4 py-2">Date of Birth</th>
-        <th class="px-4 py-2">Accepted Terms?</th>
+        <th class="px-4 py-2">Dob</th>
+        <th class="px-4 py-2">Accepted terms?</th>
         </tr>${table_entries}</table>`;
   let details = document.getElementById("register-entries");
   details.innerHTML = table;
